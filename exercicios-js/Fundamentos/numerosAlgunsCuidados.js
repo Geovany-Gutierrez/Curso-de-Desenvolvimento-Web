@@ -1,0 +1,5 @@
+console.log(2 / 0)
+console.log('10'/ 2)
+console.log('Ola' - 2)
+console.log(0.1 + 0.7)
+console.log((22.245).toFixed(2))
