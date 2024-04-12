@@ -6,3 +6,4 @@ function rand([min = 0, max = 1000]) {
 console.log(rand([50, 40]))
 console.log(rand([990]))
 console.log(rand([, 10]))
+//console.log(rand()) erro pelo array nao estar declarado(min, max)
