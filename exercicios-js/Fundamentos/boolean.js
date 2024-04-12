@@ -28,3 +28,6 @@ console.log(!!(isAtivo = false))
 
 console.log('pra finalizar')
 console.log(!!('' + 0 + 'e'))
+
+let nome = 'A'
+console.log(nome || 'Vazio')
