@@ -6,7 +6,7 @@ const obj2 = new Object
 
 console.log(obj1, obj2)
 
-// funcao construtora
+// Funcao construtora (de objetos?) com parametros
 function Produto(nome, preco, desc) {
     this.nome = nome
     this.getPrecoComDesconto = () => {
@@ -20,7 +20,7 @@ const p2 = new Produto('Notebook', 3000, 0.25)
 console.log(p1.getPrecoComDesconto())
 console.log(p2.getPrecoComDesconto())
 
-// Função factory
+// Função factory, que acho que retorna um objeto e possui uma funçao que pode ser invocada atraves do objeto insanciado
 function criarFuncionario(nome, salarioBase, faltas) {
     return {
         nome,
@@ -32,10 +32,11 @@ function criarFuncionario(nome, salarioBase, faltas) {
     }
 }
 
+// INstanciando a partir a funçao factory
 const func1 = criarFuncionario('Eduardo', 2000, 0)
 const func2 = criarFuncionario('Juan', 2000, 20)
 
-console.log(func1.getSalario())
+console.log(func1)
 console.log(func2.getSalario())
 
 // Object.create
